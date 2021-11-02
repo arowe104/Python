@@ -16,6 +16,7 @@ python bogo_sort.py
 import random
 
 
+#Algorithmic Complexity of O((n-1)n!)
 def bogo_sort(collection):
     """Pure implementation of the bogosort algorithm in Python
     :param collection: some mutable ordered collection with heterogeneous
