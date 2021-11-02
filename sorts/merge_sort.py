@@ -8,7 +8,7 @@ For manual testing run:
 python merge_sort.py
 """
 
-
+#Algorithmic Complexity of O(n log n)
 def merge_sort(collection: list) -> list:
     """Pure implementation of the merge sort algorithm in Python
     :param collection: some mutable ordered collection with heterogeneous
