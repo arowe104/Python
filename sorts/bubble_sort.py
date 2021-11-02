@@ -27,8 +27,10 @@ def bubble_sort(collection):
     >>> bubble_sort(collection) == sorted(collection)
     True
     """
-    length = len(collection)
-    for i in range(length - 1):
+    
+    #Algorithmic Complexity of O(n^2)
+    length = len(collection) 
+    for i in range(length - 1): 
         swapped = False
         for j in range(length - 1 - i):
             if collection[j] > collection[j + 1]:
